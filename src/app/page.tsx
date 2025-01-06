@@ -1,6 +1,40 @@
+"use client";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
 const Homepage = () => {
-  return(
-      <div>Home</div>
-  )
-}
-export default Homepage
+  return (
+    <motion.div
+      className="h-full overflow-scroll"
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+    >
+      <div className="h-screen flex flex-col lg:flex-row">
+        <div className="h-1/2  relative lg:w-1/2 ">
+          <Image src="/LK.png" alt=" " fill className="object-contain" />
+        </div>
+
+        <div className="h-1/2 lg:w-1/2  flex flex-col gap-8 items-center justify-center">
+          <h1 className="text-4xl md:text-6xl font-bold">
+            I AM LANKESH PATHMARAJ
+          </h1>
+          <p className="md:text-xl">
+            Crafting seamless digital experiences as a full-stack developer with
+            a passion for innovation and clean code. Let’s build something
+            extraordinary together!
+          </p>
+          <div className="flex gap-4 lg:w-full">
+            <button className="p-4 rounded-xl ring-1 ring-white  text-white">
+              My works
+            </button>
+            <button className="p-4 rounded-xl ring-1 ring-white">
+              Contact me
+            </button>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+export default Homepage;
