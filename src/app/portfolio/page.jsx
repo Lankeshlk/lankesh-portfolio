@@ -10,6 +10,7 @@ const portfoliopage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
+      
     
     </motion.div>
   );
