@@ -99,7 +99,7 @@ const Contactpage = () => {
             Send
           </button>
           {success && (
-            <span className="text-green-600 font-semibold">
+            <span className="text-white font-semibold">
               Your message has been sent successfully!
             </span>
           )}
@@ -109,7 +109,6 @@ const Contactpage = () => {
             </span>
           )}
         </form>
-        <div>Phone - 0767799845</div>
       </div>
     </motion.div>
   );
