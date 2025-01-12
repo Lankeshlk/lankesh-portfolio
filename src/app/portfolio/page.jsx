@@ -11,7 +11,7 @@ const projects = [
     category: "Individual Project",
     title: "Postify - Blog Web Application",
     description:
-      "LKWrites is a full-featured blog application developed using the MERN stack (MongoDB, Express.js, React, Node.js). The key features of the application include infinite scroll, which allows seamless content loading for an enhanced user experience, and user roles, which implement role-based access control for administrators, editors, and readers. Advanced filters were designed to improve content discoverability, enabling users to easily find relevant posts. This project showcases expertise in full-stack development, RESTful API integration, and user-focused design, demonstrating the ability to build dynamic and scalable web applications.",
+      "LKWrites is a full-featured blog application with key features such as infinite scroll for seamless content loading, role-based access control for administrators, editors, and readers, and advanced filters to improve content discoverability. This project highlights expertise in full-stack development, RESTful API integration, and user-focused design, showcasing the ability to create dynamic and scalable web applications.",
     stack: ["React.js", "Node.js", "Express.js", "MongoDB"],
     img: "/LKW.png",
     githubLink: "https://github.com/Lankeshlk/LKWrites",
@@ -32,11 +32,11 @@ const PortfolioPage = () => {
               transition={{ duration: 0.5 }}
             >
               {/* Project Image (Left side) */}
-              <div className="md:w-1/2 h-[375px] mt-25 relative flex justify-center items-center">
+              <div className="md:w-1/2 h-[350px] mt-25 relative flex justify-center items-center">
                 <motion.img
                   src={project.img}
                   alt={project.title}
-                  className="w-full h-[325px] object-contain"
+                  className="w-full h-[300px] object-contain"
                   whileHover={{ scale: 1.05 }} // Slight zoom effect on hover
                   transition={{ duration: 0.3 }}
                 />
@@ -51,6 +51,7 @@ const PortfolioPage = () => {
                   transition={{ duration: 0.3 }}
                 >
                   {project.num}
+                  &nbsp;
                   {project.title}
                 </motion.div>
 

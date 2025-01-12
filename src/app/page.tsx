@@ -13,10 +13,10 @@ const Homepage = () => {
     >
       <div className="h-screen flex flex-col lg:flex-row">
         <div className="h-1/2  relative lg:w-1/2 ">
-          <Image src="/LK.png" alt=" " fill className="object-contain" />
+          <Image src="/LK.png" alt=" " fill className="object-contain rounded-full" />
         </div>
 
-        <div className="h-1/2 lg:w-1/2  flex flex-col gap-8 items-center justify-center">
+        <div className="h-1/2 lg:w-1/2  flex flex-col gap-8 items-center ml-4 justify-center">
           <h1 className="text-4xl md:text-6xl font-bold">
             I AM LANKESH PATHMARAJ
           </h1>
