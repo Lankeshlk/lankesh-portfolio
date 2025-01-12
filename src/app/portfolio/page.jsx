@@ -20,7 +20,7 @@ const projects = [
 
 const PortfolioPage = () => {
   return (
-    <div className="min-h-[80vh] py-12">
+    <div className="min-h-[80vh] py-12 px-8">
       <div className="container mx-auto">
         <div className="space-y-8">
           {projects.map((project) => (
