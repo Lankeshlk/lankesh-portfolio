@@ -16,7 +16,7 @@ const Homepage = () => {
           <Image src="/LK.png" alt=" " fill className="object-contain rounded-full" />
         </div>
 
-        <div className="h-1/2 lg:w-1/2  flex flex-col gap-8 items-center ml-4 justify-center">
+        <div className="h-1/2 lg:w-1/2  flex flex-col gap-8 items-center ml-4 mr-4 justify-center">
           <h1 className="text-4xl md:text-6xl font-bold">
             I AM LANKESH PATHMARAJ
           </h1>
