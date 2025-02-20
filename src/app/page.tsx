@@ -9,11 +9,11 @@ const Homepage = () => {
       className="h-full overflow-scroll"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 1}}
     >
       <div className="h-screen flex flex-col lg:flex-row">
         <div className="h-1/2  relative lg:w-1/2 ">
-          <Image src="/LK.png" alt=" " fill className="object-contain rounded-full" />
+          <Image src="/LK.png" alt=" " fill className="object-contain rounded-full " />
         </div>
 
         <div className="h-1/2 lg:w-1/2  flex flex-col gap-8 items-center ml-4 mr-4 justify-center">

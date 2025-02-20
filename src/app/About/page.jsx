@@ -195,7 +195,7 @@ const Aboutpage = () => {
           </div>
         </div>
         {/* SVG CONTAINER */}
-        <div className="hidden lg:block top-0 right-0 top-0 sticky z-30 w-1/3 xl:w-2/5 h-screen">
+        <div className="hidden lg:block right-0 top-0 sticky z-30 w-1/3 xl:w-2/5 h-screen">
           <Brain scrollYProgress={scrollYProgress} />
         </div>
       </div>
