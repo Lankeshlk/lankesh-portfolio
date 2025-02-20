@@ -33,7 +33,7 @@ const Homepage = () => {
               <Link href="/Contact">Contact me</Link>
             </button>
             <button className="p-4 rounded-xl ring-1 ring-white">
-              <a href="/Lankesh_Pathmaraj .pdf" download="Lankesh_Pathmaraj.pdf">Download CV</a>
+              <a href="/Lankesh_Pathmaraj.pdf" download="Lankesh_Pathmaraj.pdf">Download CV</a>
             </button>
           </div>
         </div>
